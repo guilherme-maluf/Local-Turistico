@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  margin: 88px auto 80px;
+}
+
+img {
+  border-radius: 28px;
+}
+
+footer {
+  color: #1E1E1E;
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+footer img {
+  vertical-align:middle ;
+}
