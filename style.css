@@ -3,26 +3,111 @@
   padding: 0;
 }
 
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #F5F4F0;
+  list-style: circle;
+}
+
 body {
   background-size: cover;
 }
 
+#image {
+  text-align: center;
+  font-style: italic;
+}
+
+header {
+  line-height: auto;
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 #page {
   box-sizing: border-box;
-  width: 800px;
-  margin: 88px auto 80px;
+  width: 1120px;
+  margin: 80px auto 88px;
 }
 
 img {
   border-radius: 28px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: #1E1E1E;
+}
+
+li.history {
+  color: #0C51A7;
+}
+
+li.couples {
+  color: #591B98;
+}
+
+li.families {
+  color: #E5245E;
+}
+
+li.budget {
+  color: #E95E10;
+}
+
+li.history, li.couples, li.families, li.budget {
+  list-style: disc ;
+  font-weight: bold;
+}
+
+/* AINDA NÃO ENTENDI COMO FAZER, TROCAR O BULLET DA LISTA PARA PRETO, MESMO SENDO COLORIDO AS CORES */
+/* li.history, li.couples, li.families, li.budget, ::before {
+  color: #1E1E1E;
+} */
+
+/* AINDA NÃO ENTENDI COMO FAZER, TROCAR O BULLET DA LISTA PARA PRETO, MESMO SENDO COLORIDO AS CORES */
+/* ul li ::before {
+  font-weight: bold;
+  font-size: 28px;
+} */
+
+#description {
+  text-align: center;
+}
+
 footer {
   color: #1E1E1E;
+  font-family: "Alice", serif;
+  line-height: 150%;
   text-align: center;
-  padding-bottom: 65px;
+  padding-bottom: 48px;
 }
 
 footer img {
   vertical-align:middle ;
+  width: 14px;
+  height: 28px;
 }
