@@ -10,12 +10,16 @@
   font-weight: 400;
   color: #333333;
   background-color: #F5F4F0;
-  list-style: circle;
+}
+
+#title {
+  margin-bottom: 40px;
 }
 
 #image {
   text-align: center;
   font-style: italic;
+  margin-top: 4px;
 }
 
 header {
@@ -34,14 +38,11 @@ main {
   box-sizing: border-box;
   margin: 80px auto 65px auto;
   width: 1120px;
+  list-style-position: inside;
 }
 
 section + section {
   margin-top: 40px;
-}
-
-#image {
-  margin-top: 4px;
 }
 
 #description {
@@ -59,59 +60,64 @@ hr {
   margin-top: 64px;
 }
 
+#list {
+  margin-top: 64px;
+}
+
 h1 {
   font-size: 36px;
 }
 
 h2 {
+  margin-bottom: 8px;
   font-size: 32px;
 }
 
 h3 {
-  font-size: 28px;
-}
-
-h4 {
   color: #333333;
   font-weight: bold;
   font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #1E1E1E;
 }
 
-li.history {
+li.number{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+ul + img {
+  margin-top: 48px;
+}
+
+li.bullet {
+  list-style-type: disc;
+}
+
+span.history {
   color: #0C51A7;
 }
 
-li.couples {
+span.couples {
   color: #591B98;
 }
 
-li.families {
+span.families {
   color: #E5245E;
 }
 
-li.budget {
+span.budget {
   color: #E95E10;
 }
 
-li.history, li.couples, li.families, li.budget {
+span.history, span.couples, span.families, span.budget {
   list-style: disc ;
   font-weight: bold;
+  font-size: 16px;
 }
-
-/* AINDA NÃO ENTENDI COMO FAZER, TROCAR O BULLET DA LISTA PARA PRETO, MESMO SENDO COLORIDO AS CORES */
-/* li.history, li.couples, li.families, li.budget, ::before {
-  color: #1E1E1E;
-} */
-
-/* AINDA NÃO ENTENDI COMO FAZER, TROCAR O BULLET DA LISTA PARA PRETO, MESMO SENDO COLORIDO AS CORES */
-/* ul li ::before {
-  font-weight: bold;
-  font-size: 28px;
-} */
 
 #description {
   text-align: center;
